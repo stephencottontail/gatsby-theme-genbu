@@ -1,0 +1,24 @@
+{
+  "private": "true",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stephencottontail/gatsby-theme-genbu.git"
+  },
+  "keywords": [
+    "wp",
+    "headless",
+    "gatsby"
+  ],
+  "author": "Stephen Dickinson <stephencottontail@me.com>",
+  "license": "MIT",
+  "workspaces": [
+    "site",
+    "packages/gatsby-theme-genbu"
+  ],
+  "scripts": {
+    "develop": "npm run develop --workspace=site",
+    "build": "npm run build --workspace=site",
+    "serve": "npm run serve --workspace=site"
+  }
+}

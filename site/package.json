@@ -1,0 +1,19 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Demo site using the included Gatsby theme",
+  "main": "gatsby-config.js",
+  "author": "Stephen Dickinson <stephencottontail@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^4.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "gatsby-theme-genbu": "*"
+  },
+  "scripts": {
+    "develop": "npx gatsby develop -H 0.0.0.0",
+    "build": "npx gatsby build",
+    "serve": "npx gatsby serve -H 0.0.0.0"
+  }
+}
